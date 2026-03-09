@@ -134,7 +134,7 @@ export default function RootLandingPage() {
           <div className="flex justify-center items-center">
             <video autoPlay muted loop className="w-1/2 rounded-2xl">
               <source src={demoMov} type="video/quicktime" />
-              Your browser does not support the video tag..
+              Your browser does not support the video tag.
             </video>
           </div>
         </div>

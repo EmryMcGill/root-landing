@@ -1,7 +1,7 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import logoSvg from "./assets/logo.svg";
-import demoPng from "./assets/demo.mov";
+import demoMov from "./assets/demo.mov";
 
 // Make sure to add this to your global CSS:
 // @import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
@@ -132,7 +132,10 @@ export default function RootLandingPage() {
           </div>
 
           <div className="flex justify-center items-center">
-            <img src={demoPng} alt="root demo" className="w-1/2 rounded-2xl" />
+            <video autoPlay muted loop className="w-1/2 rounded-2xl">
+              <source src={demoMov} type="video/quicktime" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </section>

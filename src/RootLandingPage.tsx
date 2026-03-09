@@ -1,7 +1,7 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import logoSvg from "./assets/logo.svg";
-import demoPng from "./assets/demo.png";
+import demoPng from "./assets/demo.mov";
 
 // Make sure to add this to your global CSS:
 // @import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
